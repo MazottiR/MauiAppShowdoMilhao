@@ -199,6 +199,141 @@ namespace MauiAppShowdoMilhao
                     new Alternativa { Correta = false, Descricao = "25 DE DEZEMBRO" },
                 }
             },
+            new Pergunta
+            {
+                Id = 17,
+                Enunciado = "Qual lugar é também chamado de Santa Sé?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "VENEZA" },
+                    new Alternativa { Correta = true, Descricao = "VITÓRIA" },
+                    new Alternativa { Correta = false, Descricao = "VANCOUVER" },
+                    new Alternativa { Correta = false, Descricao = "VATICANO" },
+                }
+            },
+            new Pergunta
+            {
+                Id = 18,
+                Enunciado = "Quem tem por lema a frase: “Sempre alerta”?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "MÉDICOS" },
+                    new Alternativa { Correta = true, Descricao = "ESCOTEIROS" },
+                    new Alternativa { Correta = false, Descricao = "BOMBEIROS" },
+                    new Alternativa { Correta = false, Descricao = "POLICIAIS" },
+                }
+            },
+            new Pergunta
+            {
+                Id = 19,
+                Enunciado = "Quem foi o grande amor de Julieta?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "ROMEU" },
+                    new Alternativa { Correta = true, Descricao = "ORFEU" },
+                    new Alternativa { Correta = false, Descricao = "HAMLET" },
+                    new Alternativa { Correta = false, Descricao = "IAGO" },
+                }
+            },
+            new Pergunta
+            {
+                Id = 20,
+                Enunciado = "Quantos signos formam o zodíaco?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "NOVE" },
+                    new Alternativa { Correta = true, Descricao = "DEZ" },
+                    new Alternativa { Correta = false, Descricao = "ONZE" },
+                    new Alternativa { Correta = false, Descricao = "DOZE" },
+                }
+            },
      };
+        List<Pergunta> perguntas_medias = new()
+        {
+            new Pergunta
+            {
+                Id = 1,
+                Enunciado = "Quantos jogadores um jogo de vôlei reúne na quadra?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "SEIS" },
+                    new Alternativa { Correta = true, Descricao = "OITO" },
+                    new Alternativa { Correta = false, Descricao = "DEZ" },
+                    new Alternativa { Correta = false, Descricao = "DOZE" },
+                }
+            },
+            new Pergunta
+            {
+                Id = 2,
+                Enunciado = "Qual é o país do tango?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "URUGUAI" },
+                    new Alternativa { Correta = true, Descricao = "ARGENTINA" },
+                    new Alternativa { Correta = false, Descricao = "PARAGUAI" },
+                    new Alternativa { Correta = false, Descricao = "ESPANHA" },
+                }
+            },
+            new Pergunta
+            {
+                Id= 3,
+                Enunciado = "Que imperador pôs fogo em Roma?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
+                    new Alternativa { Correta = true, Descricao = "NERO" },
+                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
+                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 4,
+                Enunciado = "Que imperador pôs fogo em Roma?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
+                    new Alternativa { Correta = true, Descricao = "NERO" },
+                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
+                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 5,
+                Enunciado = "Que imperador pôs fogo em Roma?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
+                    new Alternativa { Correta = true, Descricao = "NERO" },
+                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
+                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 6,
+                Enunciado = "Que imperador pôs fogo em Roma?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
+                    new Alternativa { Correta = true, Descricao = "NERO" },
+                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
+                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 7,
+                Enunciado = "Que imperador pôs fogo em Roma?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
+                    new Alternativa { Correta = true, Descricao = "NERO" },
+                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
+                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                }
+            },
+        };
     }
 }
