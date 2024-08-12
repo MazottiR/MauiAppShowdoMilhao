@@ -334,6 +334,30 @@ namespace MauiAppShowdoMilhao
                     new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
                 }
             },
+             new Pergunta
+            {
+                Id= 8,
+                Enunciado = "A cidade de Pompéia, que foi soterrada por um vulcão fica em qual desses países?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "JAPÃO" },
+                    new Alternativa { Correta = true, Descricao = "MÉXICO" },
+                    new Alternativa { Correta = false, Descricao = "ITÁLIA" },
+                    new Alternativa { Correta = false, Descricao = "ESTADOS UNIDOS" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 9,
+                Enunciado = "Como é chamado quem nasce em Milão, na Itália?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "MILANENSE" },
+                    new Alternativa { Correta = true, Descricao = "MILANOSO" },
+                    new Alternativa { Correta = false, Descricao = "MILISTA" },
+                    new Alternativa { Correta = false, Descricao = "MILANÊS" },
+                }
+            },
         };
     }
 }
