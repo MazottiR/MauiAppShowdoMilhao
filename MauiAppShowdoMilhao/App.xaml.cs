@@ -5,7 +5,7 @@ namespace MauiAppShowdoMilhao
     public partial class App : Application
     {
 
-        List<Pergunta> perguntas_faceis = new()
+        static List<Pergunta> perguntas_faceis = new()
             {
                 new Pergunta
             {
@@ -248,6 +248,16 @@ namespace MauiAppShowdoMilhao
                 }
             },
      };
+
+        public static Pergunta getRandomPerguntaFacil()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, 20);
+
+            return perguntas_faceis[sorteado];
+        }
+
         List<Pergunta> perguntas_medias = new()
         {
             new Pergunta
@@ -289,49 +299,49 @@ namespace MauiAppShowdoMilhao
              new Pergunta
             {
                 Id= 4,
-                Enunciado = "Que imperador pôs fogo em Roma?",
+                Enunciado = "Que profissional usa uma ferramenta chamada formão?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
-                    new Alternativa { Correta = true, Descricao = "NERO" },
-                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
-                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                    new Alternativa { Correta = false, Descricao = "CARPINTEIRO" },
+                    new Alternativa { Correta = true, Descricao = "RELOJOEIRO" },
+                    new Alternativa { Correta = false, Descricao = "CONFEITEIRO" },
+                    new Alternativa { Correta = false, Descricao = "BOMBEIRO" },
                 }
             },
              new Pergunta
             {
                 Id= 5,
-                Enunciado = "Que imperador pôs fogo em Roma?",
+                Enunciado = "Em qual estádio Pelé marcou seu milésimo gol?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
-                    new Alternativa { Correta = true, Descricao = "NERO" },
-                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
-                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                    new Alternativa { Correta = false, Descricao = "MORUMBI" },
+                    new Alternativa { Correta = true, Descricao = "PACAEMBU" },
+                    new Alternativa { Correta = false, Descricao = "MARACANÃ" },
+                    new Alternativa { Correta = false, Descricao = "MINEIRÃO" },
                 }
             },
              new Pergunta
             {
                 Id= 6,
-                Enunciado = "Que imperador pôs fogo em Roma?",
+                Enunciado = "O que é um oboé?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
-                    new Alternativa { Correta = true, Descricao = "NERO" },
-                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
-                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                    new Alternativa { Correta = false, Descricao = "VULCÃO" },
+                    new Alternativa { Correta = true, Descricao = "COMIDA" },
+                    new Alternativa { Correta = false, Descricao = "INSTRUMENTO MUSICAL" },
+                    new Alternativa { Correta = false, Descricao = "TRIBO INDÍGENA" },
                 }
             },
              new Pergunta
             {
                 Id= 7,
-                Enunciado = "Que imperador pôs fogo em Roma?",
+                Enunciado = "Como eram chamados os pilotos suicidas da Segunda Guerra?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "TRAJANO" },
-                    new Alternativa { Correta = true, Descricao = "NERO" },
-                    new Alternativa { Correta = false, Descricao = "BRUTUS" },
-                    new Alternativa { Correta = false, Descricao = "ICALÍGULA" },
+                    new Alternativa { Correta = false, Descricao = "CAMICASES" },
+                    new Alternativa { Correta = true, Descricao = "SASHIMIS" },
+                    new Alternativa { Correta = false, Descricao = "HARAQUIRIS" },
+                    new Alternativa { Correta = false, Descricao = "SUMÔS" },
                 }
             },
              new Pergunta
@@ -356,6 +366,78 @@ namespace MauiAppShowdoMilhao
                     new Alternativa { Correta = true, Descricao = "MILANOSO" },
                     new Alternativa { Correta = false, Descricao = "MILISTA" },
                     new Alternativa { Correta = false, Descricao = "MILANÊS" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 10,
+                Enunciado = "O que é gôndola?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "EMBARCAÇÃO" },
+                    new Alternativa { Correta = true, Descricao = "BRINQUEDO" },
+                    new Alternativa { Correta = false, Descricao = "MÚSICA" },
+                    new Alternativa { Correta = false, Descricao = "SÍMBOLO" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 11,
+                Enunciado = "Sashimi é um prato originário de qual país?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "JAPÃO" },
+                    new Alternativa { Correta = true, Descricao = "CHINA" },
+                    new Alternativa { Correta = false, Descricao = "ÍNDIA" },
+                    new Alternativa { Correta = false, Descricao = "INDONÉSIA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 12,
+                Enunciado = "Como é chamada a cantora que representa o papel principal em uma ópera?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "PRIMEIRA DONA" },
+                    new Alternativa { Correta = true, Descricao = "DONA-PRIMA" },
+                    new Alternativa { Correta = false, Descricao = "PRIMA-DONA" },
+                    new Alternativa { Correta = false, Descricao = "OBRA-PRIMA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 13,
+                Enunciado = "Peroba é uma espécie de?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "INSETO" },
+                    new Alternativa { Correta = true, Descricao = "ÁRVORE" },
+                    new Alternativa { Correta = false, Descricao = "VERME" },
+                    new Alternativa { Correta = false, Descricao = "VERDURA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 14,
+                Enunciado = "O alpinismo é praticado em que lugar?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "MAR" },
+                    new Alternativa { Correta = true, Descricao = "MONTANHA" },
+                    new Alternativa { Correta = false, Descricao = "RIO" },
+                    new Alternativa { Correta = false, Descricao = "PRAIA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 15,
+                Enunciado = "O Coliseu é um monumento histórico de que cidade européia?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "PARIS" },
+                    new Alternativa { Correta = true, Descricao = "COPENHAGUE" },
+                    new Alternativa { Correta = false, Descricao = "ROMA" },
+                    new Alternativa { Correta = false, Descricao = "LONDRES" },
                 }
             },
         };
