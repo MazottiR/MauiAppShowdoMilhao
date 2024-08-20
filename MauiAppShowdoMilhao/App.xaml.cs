@@ -249,16 +249,8 @@ namespace MauiAppShowdoMilhao
             },
      };
 
-        public static Pergunta getRandomPerguntaFacil()
-        {
-            Random r = new Random();
 
-            int sorteado = r.Next(1, 20);
-
-            return perguntas_faceis[sorteado];
-        }
-
-        List<Pergunta> perguntas_medias = new()
+        static List<Pergunta> perguntas_medias = new()
         {
             new Pergunta
             {
@@ -440,6 +432,83 @@ namespace MauiAppShowdoMilhao
                     new Alternativa { Correta = false, Descricao = "LONDRES" },
                 }
             },
+             new Pergunta
+            {
+                Id= 16,
+                Enunciado = "Qual destas cartas custa 8 de elixir?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "MEGACAVALEIRO" },
+                    new Alternativa { Correta = true, Descricao = "P.E.K.K.A" },
+                    new Alternativa { Correta = false, Descricao = "GOLEM" },
+                    new Alternativa { Correta = false, Descricao = "LAVA HOUND" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 17,
+                Enunciado = "Onde está localizado o rio Nilo?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "EGITO" },
+                    new Alternativa { Correta = true, Descricao = "ETIÓPIA" },
+                    new Alternativa { Correta = false, Descricao = "TURQUÍA" },
+                    new Alternativa { Correta = false, Descricao = "CARAPICUIBA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 18,
+                Enunciado = "Qual a fórmula química do sal de cozinho?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "H2O" },
+                    new Alternativa { Correta = true, Descricao = "Co²" },
+                    new Alternativa { Correta = false, Descricao = "NaCl" },
+                    new Alternativa { Correta = false, Descricao = "He" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 19,
+                Enunciado = "Qual dessas não é uma linguagem de programação?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "HTML" },
+                    new Alternativa { Correta = true, Descricao = "JAVASCRIPT" },
+                    new Alternativa { Correta = false, Descricao = "DELPHI" },
+                    new Alternativa { Correta = false, Descricao = "ELECTRON" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 20,
+                Enunciado = "Qual dessas é uma fase da lua?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "ESCURA" },
+                    new Alternativa { Correta = true, Descricao = "APARECENTE" },
+                    new Alternativa { Correta = false, Descricao = "NOVA" },
+                    new Alternativa { Correta = false, Descricao = "METAFASE" },
+                }
+            },
         };
+
+        public static Pergunta getRandomPerguntaFacil()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, 20);
+
+            return perguntas_faceis[sorteado];
+        }
+        public static Pergunta getRandomPerguntaMedia()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, 20);
+
+            return perguntas_medias[sorteado];
+        }
     }
 }
