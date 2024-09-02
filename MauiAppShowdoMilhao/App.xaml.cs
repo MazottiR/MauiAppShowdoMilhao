@@ -254,7 +254,7 @@ namespace MauiAppShowdoMilhao
         {
             new Pergunta
             {
-                Id = 1,
+                Id = 21,
                 Enunciado = "Quantos jogadores um jogo de vôlei reúne na quadra?",
                 Alternativas = new()
                 {
@@ -266,7 +266,7 @@ namespace MauiAppShowdoMilhao
             },
             new Pergunta
             {
-                Id = 2,
+                Id = 22,
                 Enunciado = "Qual é o país do tango?",
                 Alternativas = new()
                 {
@@ -278,7 +278,7 @@ namespace MauiAppShowdoMilhao
             },
             new Pergunta
             {
-                Id= 3,
+                Id= 23,
                 Enunciado = "Que imperador pôs fogo em Roma?",
                 Alternativas = new()
                 {
@@ -290,7 +290,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 4,
+                Id= 24,
                 Enunciado = "Que profissional usa uma ferramenta chamada formão?",
                 Alternativas = new()
                 {
@@ -302,7 +302,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 5,
+                Id= 25,
                 Enunciado = "Em qual estádio Pelé marcou seu milésimo gol?",
                 Alternativas = new()
                 {
@@ -314,7 +314,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 6,
+                Id= 26,
                 Enunciado = "O que é um oboé?",
                 Alternativas = new()
                 {
@@ -326,7 +326,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 7,
+                Id= 27,
                 Enunciado = "Como eram chamados os pilotos suicidas da Segunda Guerra?",
                 Alternativas = new()
                 {
@@ -338,7 +338,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 8,
+                Id= 28,
                 Enunciado = "A cidade de Pompéia, que foi soterrada por um vulcão fica em qual desses países?",
                 Alternativas = new()
                 {
@@ -350,7 +350,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 9,
+                Id= 29,
                 Enunciado = "Como é chamado quem nasce em Milão, na Itália?",
                 Alternativas = new()
                 {
@@ -362,7 +362,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 10,
+                Id= 30,
                 Enunciado = "O que é gôndola?",
                 Alternativas = new()
                 {
@@ -374,7 +374,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 11,
+                Id= 31,
                 Enunciado = "Sashimi é um prato originário de qual país?",
                 Alternativas = new()
                 {
@@ -386,7 +386,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 12,
+                Id= 32,
                 Enunciado = "Como é chamada a cantora que representa o papel principal em uma ópera?",
                 Alternativas = new()
                 {
@@ -398,7 +398,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 13,
+                Id= 33,
                 Enunciado = "Peroba é uma espécie de?",
                 Alternativas = new()
                 {
@@ -410,7 +410,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 14,
+                Id= 34,
                 Enunciado = "O alpinismo é praticado em que lugar?",
                 Alternativas = new()
                 {
@@ -422,7 +422,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 15,
+                Id= 35,
                 Enunciado = "O Coliseu é um monumento histórico de que cidade européia?",
                 Alternativas = new()
                 {
@@ -434,7 +434,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 16,
+                Id= 36,
                 Enunciado = "Qual destas cartas custa 8 de elixir?",
                 Alternativas = new()
                 {
@@ -446,7 +446,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 17,
+                Id= 37,
                 Enunciado = "Onde está localizado o rio Nilo?",
                 Alternativas = new()
                 {
@@ -458,7 +458,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 18,
+                Id= 38,
                 Enunciado = "Qual a fórmula química do sal de cozinho?",
                 Alternativas = new()
                 {
@@ -470,7 +470,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 19,
+                Id= 39,
                 Enunciado = "Qual dessas não é uma linguagem de programação?",
                 Alternativas = new()
                 {
@@ -482,7 +482,7 @@ namespace MauiAppShowdoMilhao
             },
              new Pergunta
             {
-                Id= 20,
+                Id= 40,
                 Enunciado = "Qual dessas é uma fase da lua?",
                 Alternativas = new()
                 {
@@ -493,6 +493,294 @@ namespace MauiAppShowdoMilhao
                 }
             },
         };
+
+
+        static List<Pergunta> perguntas_dificeis = new()
+        {
+            new Pergunta
+            {
+                Id = 41,
+                Enunciado = "Em qual espécie o macho choca os ovos e a fêmea procura alimento?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "ANDORINHA" },
+                    new Alternativa { Correta = false, Descricao = "PATO SELVAGEM" },
+                    new Alternativa { Correta = true, Descricao = "PINGUIM" },
+                    new Alternativa { Correta = false, Descricao = "MARRECO" },
+                }
+            },
+            new Pergunta
+            {
+                Id = 42,
+                Enunciado = "Em qual país está localizado o “Muro das lamentações”?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "ALEMANHA" },
+                    new Alternativa { Correta = false, Descricao = "BRASIL" },
+                    new Alternativa { Correta = false, Descricao = "VENEZUELA" },
+                    new Alternativa { Correta = true, Descricao = "ISRAEL" },
+                }
+            },
+            new Pergunta
+            {
+                Id= 43,
+                Enunciado = "Qual desses países não fica na Ásia?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "PAQUISTÃO" },
+                    new Alternativa { Correta = false, Descricao = "JAPÃO" },
+                    new Alternativa { Correta = false, Descricao = "TAILÂNDIA" },
+                    new Alternativa { Correta = true, Descricao = "EGITO" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 44,
+                Enunciado = "Qual desses astros de filmes de ação é belga?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "ARNOLD SCHWARZENEGGER" },
+                    new Alternativa { Correta = false, Descricao = "SYLVESTER STALLONE" },
+                    new Alternativa { Correta = false, Descricao = "STEVEN SEAGAL" },
+                    new Alternativa { Correta = true, Descricao = "JEAN CLAUDE VAN DAMME" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 45,
+                Enunciado = "Onde foi conduzida a vitória das forças aliadas na Segunda Guerra Mundial?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "CANNES" },
+                    new Alternativa { Correta = true, Descricao = "NORMANDIA" },
+                    new Alternativa { Correta = false, Descricao = "CAPRI" },
+                    new Alternativa { Correta = false, Descricao = "MARSELHA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 46,
+                Enunciado = "Onde nasceu Van Gogh, o grande pintor impressionista?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "POLÔNIA" },
+                    new Alternativa { Correta = false, Descricao = "FRANÇA" },
+                    new Alternativa { Correta = false, Descricao = "ITÁLIA" },
+                    new Alternativa { Correta = true, Descricao = "HOLANDA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 47,
+                Enunciado = "Qual é a primeira letra do alfabeto grego?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "DELTA" },
+                    new Alternativa { Correta = false, Descricao = "BETA" },
+                    new Alternativa { Correta = true, Descricao = "ALFA" },
+                    new Alternativa { Correta = false, Descricao = "GAMA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 48,
+                Enunciado = "Qual presidente brasileiro instituiu o AI-5?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = true, Descricao = "COSTA E SILVA" },
+                    new Alternativa { Correta = false, Descricao = "ERNESTO GEISEL" },
+                    new Alternativa { Correta = false, Descricao = "JOÃO FIGUEIREDO" },
+                    new Alternativa { Correta = false, Descricao = "ITAMAR FRANCO" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 49,
+                Enunciado = "O que significa literalmente Perestroika?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "CONVERSÃO" },
+                    new Alternativa { Correta = false, Descricao = "INVOLUÇÃO" },
+                    new Alternativa { Correta = true, Descricao = "REESTRUTURAÇÃO" },
+                    new Alternativa { Correta = false, Descricao = "REGRESSÃO" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 50,
+                Enunciado = "Qual desses quatro pesos é o mais leve?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "10 ONÇAS" },
+                    new Alternativa { Correta = true, Descricao = "10 GRAMAS" },
+                    new Alternativa { Correta = false, Descricao = "10 QUILOS" },
+                    new Alternativa { Correta = false, Descricao = "10 LIBRAS" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 51,
+                Enunciado = "Brahma é o deus de que religião?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = true, Descricao = "HINDUÍSMO" },
+                    new Alternativa { Correta = false, Descricao = "XINTOÍSMO" },
+                    new Alternativa { Correta = false, Descricao = "BUDISMO" },
+                    new Alternativa { Correta = false, Descricao = "ISLAMISMO" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 52,
+                Enunciado = "Os nazistas foram julgados em:",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "BERLIM" },
+                    new Alternativa { Correta = true, Descricao = "NUREMBERGUE" },
+                    new Alternativa { Correta = false, Descricao = "MUNIQUE" },
+                    new Alternativa { Correta = false, Descricao = "PARIS" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 53,
+                Enunciado = "Que ramo da pecuária ocupa-se de bodes e cabras?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "ASININO" },
+                    new Alternativa { Correta = true, Descricao = "CAPRINO" },
+                    new Alternativa { Correta = false, Descricao = "BUFALINO" },
+                    new Alternativa { Correta = false, Descricao = "MUAR" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 54,
+                Enunciado = "Qual oceano tem o maior volume de água?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "ATLÂNTICO" },
+                    new Alternativa { Correta = true, Descricao = "PACÍFICO" },
+                    new Alternativa { Correta = false, Descricao = "ÍNDICO" },
+                    new Alternativa { Correta = false, Descricao = "ÁRTICO" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 55,
+                Enunciado = "Qual foi o último presidente militar do Brasil?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "FERNANDO COLLOR" },
+                    new Alternativa { Correta = true, Descricao = "JOÃO FIGUEIREDO" },
+                    new Alternativa { Correta = false, Descricao = "TANCREDO NEVES" },
+                    new Alternativa { Correta = false, Descricao = "JOÃO GOULART" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 56,
+                Enunciado = "Que conflito ideológico envolveu os EUA e a União Soviética?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = true, Descricao = "GUERRA FRIA" },
+                    new Alternativa { Correta = false, Descricao = "GUERRA DO VIETNÃ" },
+                    new Alternativa { Correta = false, Descricao = "GUERRA NAS ESTRELAS" },
+                    new Alternativa { Correta = false, Descricao = "GUERRA DA CORÉIA" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 57,
+                Enunciado = "O trapézio é um músculo que está situado:",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "NO PESCOÇO" },
+                    new Alternativa { Correta = true, Descricao = "NO OMBRO" },
+                    new Alternativa { Correta = false, Descricao = "NA CABEÇA" },
+                    new Alternativa { Correta = false, Descricao = "NO BRAÇO" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 58,
+                Enunciado = "Quem escreveu o livro “A sangue frio” em 1966?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = true, Descricao = "TRUMAN CAPOTE" },
+                    new Alternativa { Correta = false, Descricao = "HENRY JAMES" },
+                    new Alternativa { Correta = false, Descricao = "JOHN STEINBECK" },
+                    new Alternativa { Correta = false, Descricao = "TONI MORRISON" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 59,
+                Enunciado = "Quem escreveu “Ulisses” em 1922?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "ERNEST HEMINGWAY" },
+                    new Alternativa { Correta = false, Descricao = "MARCEL PROUST" },
+                    new Alternativa { Correta = false, Descricao = "T.S. ELLIOT" },
+                    new Alternativa { Correta = true, Descricao = "JAMES JOYCE" },
+                }
+            },
+             new Pergunta
+            {
+                Id= 60,
+                Enunciado = "Qual o símbolo químico do radônio?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "Rr" },
+                    new Alternativa { Correta = false, Descricao = "Rd" },
+                    new Alternativa { Correta = true, Descricao = "Rn" },
+                    new Alternativa { Correta = false, Descricao = "Ro" },
+                }
+            },
+        };
+
+
+        static List<Pergunta> perguntas_finais = new()
+        {
+            new Pergunta
+            {
+                Id = 61,
+                Enunciado = "Qual atleta foi desclassificado por uso de doping nas Olimpíadas de 1988?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "MIKE POWELL" },
+                    new Alternativa { Correta = false, Descricao = "BEN JOHNSON" },
+                    new Alternativa { Correta = true, Descricao = "CARL LEWIS" },
+                    new Alternativa { Correta = false, Descricao = "LINFORD CHRISTIE" },
+                }
+            },
+            new Pergunta
+            {
+                Id = 62,
+                Enunciado = "Qual metal possui o símbolo Hg?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "FERRO" },
+                    new Alternativa { Correta = false, Descricao = "AÇO" },
+                    new Alternativa { Correta = true, Descricao = "MERCÚRIO" },
+                    new Alternativa { Correta = false, Descricao = "OURO" },
+                }
+            },
+            new Pergunta
+            {
+                Id = 63,
+                Enunciado = "Qual é o apelido do time da Ponte Preta?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "FEITICEIRA" },
+                    new Alternativa { Correta = false, Descricao = "RAPOSA" },
+                    new Alternativa { Correta = true, Descricao = "BRUXA" },
+                    new Alternativa { Correta = false, Descricao = "MACACA" },
+                }
+            },
+        };
+
+
 
         public static Pergunta getRandomPerguntaFacil()
         {
@@ -506,7 +794,24 @@ namespace MauiAppShowdoMilhao
         {
             Random r = new Random();
 
-            int sorteado = r.Next(1, 20);
+            int sorteado = r.Next(21, 40);
+
+            return perguntas_medias[sorteado];
+        }
+
+        public static Pergunta getRandomPerguntaDificil()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(41, 60);
+
+            return perguntas_faceis[sorteado];
+        }
+        public static Pergunta getRandomPerguntaFinal()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(61, 63);
 
             return perguntas_medias[sorteado];
         }
