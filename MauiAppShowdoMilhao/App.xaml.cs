@@ -1,4 +1,5 @@
 ﻿using MauiAppShowdoMilhao.Models;
+using MetalPerformanceShadersGraph;
 
 namespace MauiAppShowdoMilhao
 {
@@ -781,7 +782,9 @@ namespace MauiAppShowdoMilhao
         };
 
 
+        static List<Pergunta> perguntas_sorteadas = new();
 
+       
         public static Pergunta getRandomPerguntaFacil()
         {
             Random r = new Random();
@@ -789,6 +792,23 @@ namespace MauiAppShowdoMilhao
             int sorteado = r.Next(1, 20);
 
             return perguntas_faceis[sorteado];
+
+            Pergunta pergunta_sorteada;
+
+            while (true)
+            {
+                int sorteado = r.Next(1, 20);
+
+                pergunta_sorteada = perguntas_faceis[sorteado];
+
+                if (!perguntas_sorteadas.Contains(pergunta_sorteada))
+                {
+                    perguntas_sorteadas.Add(pergunta_sorteada);
+                    break;
+                }
+            }
+
+            return pergunta_sorteada;
         }
         public static Pergunta getRandomPerguntaMedia()
         {
