@@ -60,6 +60,79 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Plugin.Maui.Audio" Version="3.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <AndroidResource Update="Resources\raw\1000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\10000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\1000000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\100000a.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\100000b.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\2000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\20000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\200000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\3000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\30000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\300000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\4000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\40000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\400000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\5000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\50000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\500000.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\abertura-show-do-milhao.mp3">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\AboutAssets.txt">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\errou.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\ganhou.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\Raw\logo.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
+	  <AndroidResource Update="Resources\raw\parabens.wav">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </AndroidResource>
 	</ItemGroup>
 
 </Project>
