@@ -57,6 +57,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiAsset Remove="Resources\raw\aberturashowdomilhao.mp3" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -115,7 +119,7 @@
 	  <AndroidResource Update="Resources\raw\500000.wav">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </AndroidResource>
-	  <AndroidResource Update="Resources\raw\abertura-show-do-milhao.mp3">
+	  <AndroidResource Update="Resources\raw\aberturashowdomilhao.mp3">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </AndroidResource>
 	  <AndroidResource Update="Resources\raw\AboutAssets.txt">

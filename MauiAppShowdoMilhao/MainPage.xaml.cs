@@ -89,10 +89,16 @@ namespace MauiAppShowdoMilhao
                     track = "15.wav";
                     break;
 
+                case 16:
+                    track = "16.wav";
+                    break;
+
             }
 
             AudioManager.Current.CreatePlayer(FileSystem.OpenAppPackageFileAsync(track).Result).Play();
         }
+        
+    }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
@@ -141,8 +147,14 @@ namespace MauiAppShowdoMilhao
 
             if (acertou)
             {
-                DisplayAlert("ACERTOU!", resp, "OK");
-                this.BindingContext = App.getRandomPerguntaFacil();
+            Stream track = FileSystem.OpenAppPackageFileAsync("parabens.wav").Result;
+            AudioManager.Current.CreatePlayer(track).Play();
+
+            await DisplayAlert("ACERTOU!", resp, "OK");
+            pergunta_count++;
+            toca_som();
+            avanca_pergunta();
+
             }
         }
         private void OnCounterClicked(object sender, EventArgs e)
