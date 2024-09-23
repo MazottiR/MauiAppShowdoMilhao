@@ -177,20 +177,40 @@ namespace MauiAppShowdoMilhao
                 lbl_nivel.Text = "Fácil";
             }
 
-            if (pergunta_count > 5 && pergunta_count <= 10)
+            if (pergunta_count == 6 && pergunta_count <= 10)
             {
-                premio = premio + 10000;
+                premio = 10000;
                 this.BindingContext = App.getRandomPerguntaFacil();
                 lbl_nivel.Text = "Média";
             }
 
-            if (pergunta_count > 10 && pergunta_count <= 15)
+        if (pergunta_count > 6 && pergunta_count <= 10)
+        {
+            premio = premio + 10000;
+            this.BindingContext = App.getRandomPerguntaFacil();
+            lbl_nivel.Text = "Média";
+        }
+
+        if (pergunta_count == 11 && pergunta_count <= 15)
+            {
+                premio = 100000;
+                this.BindingContext = App.getRandomPerguntaFacil();
+                lbl_nivel.Text = "Difícil";
+            }
+    
+            if (pergunta_count > 11 && pergunta_count <= 15)
             {
                 premio = premio + 100000;
                 this.BindingContext = App.getRandomPerguntaFacil();
                 lbl_nivel.Text = "Difícil";
             }
-        }
-    }
+    
+            if (pergunta_count == 16 && pergunta_count <= 15)
+            {
+                premio = 1000000;
+                this.BindingContext = App.getRandomPerguntaFacil();
+                lbl_nivel.Text = "Difícil";
+             }
+}
 
 }
